@@ -137,15 +137,15 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 <> schema:mainEntity :i .
 <> schema:dateCreated "2020-07-12"^^xsd:dateTime .
 <> schema:creator :i .
-<> schema:name "Kingsley Uyi Idehen's Profile Document" .
+<> schema:name "OpenLink Software's Profile Document" .
 
 # Personal Information 
 :i schema:mainEntityOf <> .
 :i schema:mainEntityOf <https://www.openlinksw.com/> .
-:i schema:mainEntityOf <https://www.linkedin.com/in/kidehen> .
-:i schema:mainEntityOf <https://www.twitter.com/kidehen> .
+:i schema:mainEntityOf <https://www.linkedin.com/company/27491/> .
+:i schema:mainEntityOf <https://www.twitter.com/OpenLink/> .
 :i rdf:type schema:Person, foaf:Person .
-:i schema:name "Kingsley Uyi Idehen" .
+:i schema:name "OpenLink Software" .
 :i owl:sameAs <https://www.openlinksw.com/#this> .
 :i owl:sameAs <https://www.linkedin.com/company/27491#this> .
 :i owl:sameAs <https://www.twitter.com/OpenLink#this> .
