@@ -1,3 +1,4 @@
+
 ### Hi there 👋
 
 <!--
@@ -21,9 +22,10 @@ Here are some ideas to get you started:
 - 🔭 We are currently working on the free flow of data across personal and enterprise data spaces, without comprising platform independence, performance, or privacy. 
 
 Here is an example of a personal profile document, using [JSON-LD Notaton](https://medium.com/@kidehen/simple-linked-data-deployment-tutorial-using-json-ld-notation-3e753a5d44a3) that's crucial to that effort. For maximum effect, you are encouraged to install the [OpenLink Structured Data Sniffer Browser Extension](https://chrome.google.com/webstore/detail/openlink-structured-data/egdaiaihbdoiibopledjahjaihbmjhdj?hl=en) (for Chrome and other Web Extensions compliant Browsers) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/openlink-structured-data-sniff/). 
-<html>
-  <head>
-<script type="application/ld+json>
+
+```
+## JSON-LD Start ##
+
 {
   "@context": {
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -109,11 +111,14 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
   ]
 }
 
-</script>
+## JSON-LD End ##
+
+```
 
 Here is the same Profile Information using [RDF-Turtle](https://medium.com/openlink-software-blog/simple-linked-data-deployment-tutorial-a532e568c82f) Notation. 
 
-<script type="text/turtle">
+```
+## Turtle Start ##
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix schema: <http://schema.org/> .
@@ -145,6 +150,5 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 :i owl:sameAs <https://www.linkedin.com/company/27491#this> .
 :i owl:sameAs <https://www.twitter.com/OpenLink#this> .
 
-</script>
-  </head>
-</html>
+## Turtle End ##
+```
