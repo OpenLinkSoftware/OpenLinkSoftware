@@ -51,10 +51,10 @@ Here is an example of a personal profile document, using [JSON-LD Notaton](https
     {
       "@id": "#i",
       "@type": [
-        "schema:Person",
-        "foaf:Person"
+        "schema:Organization",
+        "foaf:Organization"
       ],
-      "schema:mainEntityOf": [
+      "schema:mainEntityOfPage": [
         {
           "@id": ""
         },
@@ -140,11 +140,11 @@ Here is the same Profile Information using [RDF-Turtle](https://medium.com/openl
 <> schema:name "OpenLink Software's Profile Document" .
 
 # Personal Information 
-:i schema:mainEntityOf <> .
-:i schema:mainEntityOf <https://www.openlinksw.com/> .
-:i schema:mainEntityOf <https://www.linkedin.com/company/27491/> .
-:i schema:mainEntityOf <https://www.twitter.com/OpenLink/> .
-:i rdf:type schema:Person, foaf:Person .
+:i schema:mainEntityOfPage <> .
+:i schema:mainEntityOfPage <https://www.openlinksw.com/> .
+:i schema:mainEntityOfPage <https://www.linkedin.com/company/27491/> .
+:i schema:mainEntityOfPage <https://www.twitter.com/OpenLink/> .
+:i rdf:type schema:Organization, foaf:Organization .
 :i schema:name "OpenLink Software" .
 :i owl:sameAs <https://www.openlinksw.com/#this> .
 :i owl:sameAs <https://www.linkedin.com/company/27491#this> .
